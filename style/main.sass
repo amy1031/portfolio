@@ -34,12 +34,15 @@ $main-font: #fff
     
 h1
     color: $header-font
+    font-size: 60px
     text-transform: lowercase
-    letter-spacing: -1.5px
+    font-family: Francois One
+    margin-bottom: 0px;
+    padding-left: 100px
 
 h2
     color: $header-font
-    font-family: Yeseva One
+    font-family: Kavoon
     font-size: 43px
     text-transform: lowercase
 
@@ -48,12 +51,18 @@ h3
 
 p.intro
     color: $main-font
-    width: 400px
+    width: 550px
     font-size: 16px
+    font-family: verdana
+    padding-left: 100px
 
 p.text-white
     color: $main-font
     font-size: 18px
+
+h1 small
+    color: $header-font
+    font-size: 36px
 
 div.intro
    width: 100%
@@ -66,19 +75,28 @@ div.empty
 div.about
    background-color: rgba(232, 95, 209, 0.7)
    width: 100%
-   padding: 10px 25px 25px 25px
+   padding: 10px 100px 25px 100px
 
 div.work 
     background-color: rgba(50, 98, 209, 0.7)
     width: 100%
-    padding: 10px 25px 25px 25px
+    padding: 10px 100px 25px 100px
 
 div.specialties 
     background-color: rgba(144, 40, 213, 0.5)
     width: 100%
-    padding: 10px 25px 25px 25px
+    padding: 10px 100px 25px 100px
 
 div.contact 
     background-color: rgba(255, 224, 97, 0.7)
     width: 100%
-    padding: 10px 25px 25px 25px
+    padding: 10px 100px 25px 100px
+
+@media (max-width: 600px)
+    p.intro
+        width: auto;
+        padding-left: 10px
+    h1
+        padding-left: 10px
+    div.about, div.work, div.specialties, div.contact
+        padding: 10px 25px 25px 25px
