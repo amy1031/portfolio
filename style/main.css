@@ -48,10 +48,26 @@ h2 {
   font-family: Kavoon;
   font-size: 43px;
   text-transform: lowercase;
+  padding-bottom: 15px;
 }
 
 h3 {
   color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Raleway;
+}
+
+h4.panel-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: Raleway;
+}
+
+h5 {
+  color: #fff;
+  font-size: 16px;
+  font-family: Raleway;
 }
 
 p.intro {
@@ -85,25 +101,31 @@ div.empty {
 div.about {
   background-color: rgba(232, 95, 209, 0.7);
   width: 100%;
-  padding: 10px 100px 25px 100px;
+  padding: 10px 100px 20px 100px;
 }
 
 div.work {
   background-color: rgba(50, 98, 209, 0.7);
   width: 100%;
-  padding: 10px 100px 25px 100px;
+  height: auto;
+  padding: 10px 100px 20px 100px;
 }
 
 div.specialties {
   background-color: rgba(144, 40, 213, 0.5);
   width: 100%;
-  padding: 10px 100px 25px 100px;
+  padding: 10px 100px 20px 100px;
 }
 
 div.contact {
   background-color: rgba(255, 224, 97, 0.7);
   width: 100%;
-  padding: 10px 100px 25px 100px;
+  padding: 10px 100px 20px 100px;
+  color: #fff;
+}
+
+.panel .panel-heading {
+  background-color: #3262d1;
 }
 
 @media (max-width: 600px) {
