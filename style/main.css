@@ -111,17 +111,22 @@ div.work {
   padding: 10px 100px 20px 100px;
 }
 
-div.specialties {
+div.skills {
   background-color: rgba(144, 40, 213, 0.5);
   width: 100%;
   padding: 10px 100px 20px 100px;
 }
 
-div.contact {
+div.getInTouch {
   background-color: rgba(255, 224, 97, 0.7);
   width: 100%;
   padding: 10px 100px 20px 100px;
   color: #fff;
+}
+
+div.getInTouch a:hover {
+  color: #e85fd1 !important;
+  text-decoration: underline;
 }
 
 .panel .panel-heading {
@@ -132,6 +137,14 @@ hr.small {
   border: 0px;
   height: 0px;
   background: transparent;
+}
+
+.fa {
+  color: #fff;
+}
+
+.fa a:hover {
+  color: #e85fd1;
 }
 
 @media (max-width: 600px) {

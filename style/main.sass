@@ -2,6 +2,7 @@ $header-font: #fff
 $link-color: #fff
 $brand-color: #fff
 $main-font: #fff
+$purple: rgb(232, 95, 209)
 
 .parallax 
     background: url("http://i.imgur.com/NBMl5Yb.jpg")
@@ -97,16 +98,19 @@ div.work
     height: auto
     padding: 10px 100px 20px 100px
 
-div.specialties 
+div.skills 
     background-color: rgba(144, 40, 213, 0.5)
     width: 100%
     padding: 10px 100px 20px 100px
 
-div.contact 
+div.getInTouch 
     background-color: rgba(255, 224, 97, 0.7)
     width: 100%
     padding: 10px 100px 20px 100px
     color: $main-font
+    & a:hover
+        color: $purple !important
+        text-decoration: underline
 
 .panel .panel-heading
     background-color: rgb(50, 98, 209)
@@ -115,6 +119,11 @@ hr.small
     border: 0px
     height: 0px
     background: transparent
+
+.fa
+    color: $link-color
+    & a:hover
+        color: $purple
 
 @media (max-width: 600px)
     p.intro
