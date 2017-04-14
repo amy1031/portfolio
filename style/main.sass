@@ -3,6 +3,8 @@ $link-color: #fff
 $brand-color: #fff
 $main-font: #fff
 $purple: rgb(232, 95, 209)
+$border: #fff
+$heading: rgb(80, 0, 172)
 
 .parallax 
     background: url("http://i.imgur.com/NBMl5Yb.jpg")
@@ -49,10 +51,11 @@ h2
     padding-bottom: 15px
 
 h3
-    color: $header-font
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: Raleway
+    font-size: 20px
+    text-transform: lowercase
+    font-weight: bold
+    font-family: Roboto Slab
+    color: $main-font
 
 h4.panel-title
     color: $header-font
@@ -73,7 +76,7 @@ p.intro
 
 p.text-white
     color: $main-font
-    font-size: 18px
+    font-size: 16px
 
 h1 small
     color: $header-font
@@ -91,6 +94,18 @@ div.about
    background-color: rgba(232, 95, 209, 0.7)
    width: 100%
    padding: 10px 100px 20px 100px
+   & h3
+        font-size: 20px
+        text-transform: lowercase
+        font-weight: bold
+        font-family: Roboto Slab
+        color: $heading
+   & img 
+        width: 200px
+        height: auto
+        float: right
+        margin: 5px 0px 5px 10px
+        border: 3px solid $border
 
 div.work 
     background-color: rgba(50, 98, 209, 0.7)
@@ -110,7 +125,7 @@ div.getInTouch
     color: $main-font
     & a:hover
         color: $purple !important
-        text-decoration: underline
+        text-decoration: none
 
 .panel .panel-heading
     background-color: rgb(50, 98, 209)
@@ -120,10 +135,9 @@ hr.small
     height: 0px
     background: transparent
 
-.fa
-    color: $link-color
-    & a:hover
-        color: $purple
+ul li
+    color: $main-font
+    font-size: 16px
 
 @media (max-width: 600px)
     p.intro
