@@ -110,7 +110,7 @@ div.about img {
   width: 200px;
   height: auto;
   float: right;
-  margin: 5px 0px 5px 10px;
+  margin: 5px 0px 50px 20px;
   border: 3px solid #fff;
 }
 
@@ -147,9 +147,22 @@ div.getInTouch a:hover {
   background-color: #3262d1;
 }
 
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 hr.small {
   border: 0px;
   height: 0px;
+  background: transparent;
+}
+
+hr.large {
+  border: 20px;
+  height: 20px;
+  padding: 20px;
   background: transparent;
 }
 
