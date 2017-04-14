@@ -52,11 +52,12 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: lowercase;
   font-weight: bold;
-  font-family: Roboto Slab;
+  font-family: Merriweather;
   color: #5000ac;
+  margin-top: 0px;
 }
 
 h4.panel-title {
@@ -105,14 +106,6 @@ div.about {
   padding: 10px 100px 20px 100px;
 }
 
-div.about h3 {
-  font-size: 20px;
-  text-transform: lowercase;
-  font-weight: bold;
-  font-family: Roboto Slab;
-  color: #5000ac;
-}
-
 div.about img {
   width: 200px;
   height: auto;
@@ -126,6 +119,10 @@ div.work {
   width: 100%;
   height: auto;
   padding: 10px 100px 20px 100px;
+}
+
+div.work h3 {
+  color: #fff;
 }
 
 div.skills {
